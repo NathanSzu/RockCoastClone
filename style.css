@@ -6,16 +6,41 @@
     background-color: slategray;
 }
 
-.logo {
-
+.logo-wrapper {
+    display: inline-block;
 }
 
 .nav {
+    position: relative;
     background-color: white;
+    display: inline-block;
+    width: 50%;
+    /* left: 25px; */
+    /* bottom: 75px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    /* margin: 25px; */
+}
+
+.nav-link {
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-link:hover {
+    background-color: rgb(226,230,229);
+    border-style: solid;
+    border-color: rgb(134, 134, 134);
+    border-radius: 5px;
+    border-width: 1px;
 }
 
 .main {
     background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .card {
@@ -36,6 +61,8 @@
 }
 
 .card-wrapper {
-    width: 27%;
-    padding: 15px;
+    width: 24%;
+    padding: 10px;
+    display: inline-block;
 }
+
